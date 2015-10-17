@@ -118,8 +118,8 @@ public class RandomImageGenerator {
 	  ImageIO.write(bi, "jpg", out);
 	 }
 	 public static void main(String[] args) throws FileNotFoundException, IOException {
-	  //获取随机字符串
-		 System.out.println("~~");
+	 
+	
 	  String randomStr=random(5);
 	  System.out.println(randomStr);
 	  //生成图片
